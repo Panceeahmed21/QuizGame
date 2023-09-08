@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="images/logo.jpg" rel="icon" type="image/jpg">
+    <title>Quiz Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+      <div id="headerTop" class="header d-flex justify-content-around align-items-center m-lg-2 m-sm-2">
+        <h2 id="userName" class="text-white"></h2>
+        <button class="btn btn-primary d-block ms-auto "><a class="text-decoration-none text-white"
+                href="./index.html">Log out</a></button>
+      </div>
+
+            </div>
+        </div>
+    </div>
+    <section id="quizQuestions" class="m-4 ">
+        <div class="container bg-white">
+            <div class="row" id="questionRow">
+
+            </div>
+            
+            <button class="btn btn-primary d-block ms-auto me-5 mt-2" id="submitBtn">Submit</button>
+        </div>
+    </section>
+
+
+
+    <section id="finish" class="m-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="bg-white  m-auto shadow-lg rounded overflow-auto text-center">
+                        <h1 class=" text-spec py-5 bg-light border-bottom">Finish</h1>
+                        <div class="p-4">
+                            <h5 class=" text-spec">Score</h5>
+                            <h4 class=" text-spec" id="score">5</h4>
+                            <button
+                                class="btn float-right py-2 px-4 bg-primary rounded-pill text-white my-4 d-block ms-auto"
+                                id="tryBtn">Try
+                                Again?</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

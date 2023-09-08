@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../images/2384075.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+.bgQuestion{
+    background-color: rgb(217, 217, 217);
+}
+
+#quizQuestions .container {
+    height: 80vh;
+}
+#finish .container{
+    height: 80vh;
+    width: 100%;
+
+}
+.text-spec {
+    color: #3566b1
+}
+
+.bg-spec {
+    background-color: #3566b1
+}
+
+
+button {
+    cursor: pointer;
+}
+/* 
+567 */
+@media only screen and (max-width: 567px) {
+#headerTop{
+    margin: 1rem;
+}
+    }

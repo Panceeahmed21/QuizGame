@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container .content {
+    background: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0);
+}
+
+.form-control {
+    background: #24353f;
+}
+
+.form-control:focus {
+    background: 0;
+    box-shadow: none;
+}
+
+::placeholder {
+    color: white;
+
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+::placeholder {
+    color: #c5c5c5 !important;
+}
+
+nav {
+    background: #24353f;
+}
+
+nav li:hover a{
+color: black !important ;
+}
