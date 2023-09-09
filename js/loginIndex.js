@@ -10,7 +10,7 @@ var userData = [];
 if (localStorage.getItem("userKey") != null) {
   userData = JSON.parse(localStorage.getItem("userKey"));
 }
-console.log(userData);
+// console.log(userData);
 function checkData() {
   if (validateInputsNotEmpty() == true) {
     for (var i = 0; i < userData.length; i++) {

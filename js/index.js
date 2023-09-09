@@ -1,11 +1,4 @@
 
-if (localStorage.getItem("userKey") != null) {
-  userData = JSON.parse(localStorage.getItem("userKey"));
-userName=userData[0].name
-}
-cartona=`<span>Welcome , ${userName}</span>`
-
-document.getElementById("userName").innerHTML=cartona
 var clickedAnswer;
 var totalScore = 0;
 var chosenAnswer;

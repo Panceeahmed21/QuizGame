@@ -63,7 +63,6 @@ if (localStorage.getItem("userKey") != null) {
       return true;
     } else {
       document.getElementById("reservedEmail").classList.remove("d-none");
-      console.log("founded");
       return false;
     }
   }
